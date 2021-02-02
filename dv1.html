@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Visualization 1</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container gray">
+    <nav class="row skyblue">
+      <div class="box">
+          <button class="btn btn-secondary skyblue" type="button">
+              <img src="Icons\home-fill.svg" alt="Home">
+              <a class="skyblue" href="index.html">Home</a>
+          </button>
+      </div>
+      <div class="box dropdown">
+          <button class="btn btn-secondary dropdown-toggle skyblue" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Data Visualizations
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="dv1.html">page 1</a>
+            <a class="dropdown-item" href="dv2.html">page 2</a>
+            <a class="dropdown-item" href="dv3.html">page 3</a>
+            <a class="dropdown-item" href="dv4.html">page 4</a>
+          </div> 
+      </div>
+      <div class="box">
+          <button class="btn btn-secondary skyblue" type="button">
+            <a class="skyblue" href="comp.html">Data Comparison</a>
+          </button>
+      </div>
+      <div class="box">
+          <button class="btn btn-secondary skyblue" type="button">
+            <a class="skyblue" href="data.html">Data</a>
+          </button>
+      </div>
+    </nav>
+    <header class="row header">
+      <h1>Data Visualization 1</h1>
+    </header>
+    <main>
+      <section>
+        <article>
+            <img class="floated" src="Resources/assets/images/Fig1.png" alt="data">
+        </article>
+        <article class="post">
+          <h3>Analysis</h3>
+          <p>We can see that the maximum temperature for each city on 1/5/17 follows an arch pattern. This makes sense if we consider that the peak of that arch is right around 0 degrees (the equator), where we anticipate seeing the highest temperatures any time of year. 
+            We can also see that temperatures in the southern hemisphere are slightly higher than their positive latitude counterparts. This also makes sense to us because Janurary in the northern hemisphere is mid-winter. 
+          </p>
+        </article>
+        <hr>
+        <article class="post">
+          <h3>Continuation</h3>
+          <p>It would be interesting to visualize this data a different way. Maybe put some colors on each dot to indicate hemisphere. Or even break out the plot into two graphs (one for each hemisphere). 
+            <br>
+            <br>This would help the viewer see the pattern right off the bat. That's what visualizations are good for right? Helping people see patterns in their data.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer class="row skyblue">
+      <div class="box">
+      </div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web-Design-Challenge</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container gray">
+    <nav class="row skyblue">
+          <div class="box">
+              <button class="btn btn-secondary skyblue" type="button">
+                  <img src="Icons\home-fill.svg" alt="Home">
+                  <a class="skyblue" href="index.html">Home</a>
+              </button>
+          </div>
+          <div class="box dropdown">
+              <button class="btn btn-secondary dropdown-toggle skyblue" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Data Visualizations
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="dv1.html">page 1</a>
+                <a class="dropdown-item" href="dv2.html">page 2</a>
+                <a class="dropdown-item" href="dv3.html">page 3</a>
+                <a class="dropdown-item" href="dv4.html">page 4</a>
+              </div> 
+          </div>
+          <div class="box">
+              <button class="btn btn-secondary skyblue" type="button">
+                <a class="skyblue" href="comp.html">Data Comparison</a>
+              </button>
+          </div>
+          <div class="box">
+              <button class="btn btn-secondary skyblue" type="button">
+                <a class="skyblue" href="data.html">Data</a>
+              </button>
+          </div>
+  </nav>
+    <header class="row header">
+      <h1>Welcome!</h1>
+    </header>
+    <main>
+      <section class="posts">
+        <article class="post">
+          <h3>This is the home page.</h3>
+          <p>It explains stuff! Like what you're doing here and what you'll find. It can't explain everything like the meaning of life and the signifigance of an individual in the grand scheme of things. But it will do i't best explaining this webpage.
+            <br>
+            <br>To get back to this page from any other page, simply select the home icon located at the top left hand corner of each page.
+          </p>
+        </article>
+        <hr>
+        <article class="post">
+          <h3>Weather Data</h3>
+          <p>This data set is focused on weather data. Particularly comparing different characteristics of the weather in different cities by latitude.
+          </p>
+        </article>
+        <article class="post">
+          <h3>Navigating</h3>
+          <p>Navigate to the data visualizing through either of the below methods:
+          <ol>
+            <li>
+              Select the visualization in the dropdown box in the navigation bar. This will navigate to the respective page in your current tab.
+            </li>
+            <li>
+              From the home screen, select "Go to visualization" to the visualization preview that you are interested in from the carousel below. This will navigate to the respective page in a seperate tab.
+            </li>
+          </ol>
+          <br>To view all four visualizations at once, navigate to the comparison page via the navigation bar button.
+          <br>Finally, to see the data we worked with, navigate to the data page via the navigation bar button.
+          </p>
+        </article>
+      </section>
+    </main>
+    <hr>
+    <section>
+      <article>
+            <h3 class="post">
+              Visualizations
+            </h3>
+      </article>
+    </section>
+  <!--
+    <div class="row">
+      <div class="col-3 col-sm-6 col-md-12">
+        <div class='box purple'>
+          <a target="_blank" href="dv1.html">
+          <img class="img_small skyblue" src="Resources/assets/images/Fig1.png" alt="data 1">
+          <a target="_blank" href="dv2.html">
+          <img class="img_small skyblue" src="Resources/assets/images/Fig2.png" alt="data 2">
+          <a target="_blank" href="dv3.html">
+          <img class="img_small skyblue" src="Resources/assets/images/Fig3.png" alt="data 3">
+          <a target="_blank" href="dv4.html">
+          <img class="img_small skyblue" src="Resources/assets/images/Fig4.png" alt="data 4">
+        </div>    
+      </div>
+    </div>
+  -->
+    <hr>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Resources/assets/images/Fig1_copy.png" class="d-block w-100" alt="Fig1">
+          <div class="carousel-caption d-none d-md-block">
+            <h3><a target="_blank" href="dv1.html">Go to visualization</a></h3>
+            <p>...</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Resources/assets/images/Fig2_copy.png" class="d-block w-100" alt="Fig2">
+          <div class="carousel-caption d-none d-md-block">
+            <h3><a target="_blank" href="dv2.html">Go to visualization</a></h3>
+            <p>...</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Resources/assets/images/Fig3_copy.png" class="d-block w-100" alt="Fig3">
+          <div class="carousel-caption d-none d-md-block">
+            <h3><a target="_blank" href="dv3.html">Go to visualization</a></h3>
+            <p>...</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Resources/assets/images/Fig4_copy.png" class="d-block w-100" alt="Fig4">
+          <div class="carousel-caption d-none d-md-block">
+            <h3><a target="_blank" href="dv4.html">Go to visualization</a></h3>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <footer class="row skyblue">
+      <div class="box"></div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

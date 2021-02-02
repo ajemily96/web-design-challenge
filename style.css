@@ -1,0 +1,80 @@
+.box {
+    min-height: 50px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 800;
+    color: #fff;
+  }
+
+  .header {
+    height: 85px;
+    padding: 20px;
+    background:rgb(81, 1, 161);
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  ol {
+    list-style-type:lower-roman;
+    margin-left: 50px;
+  }
+  /*.locktop {
+    position:fixed;
+    top:0;
+  }*/
+
+  /*.homebtn {
+    position:fixed;
+  }*/
+  
+  .post {
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .floated{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    box-shadow: 10px 10px 5px rgb(88, 88, 88);
+  }
+
+  .img_small{
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 10px 10px 5px rgb(88, 88, 88);
+  }
+
+  .skyblue {
+    background: deepskyblue;
+    color:  #fff;
+  }
+  
+  .purple {
+    background: rgb(81, 1, 161);
+  }
+  
+  .gray {
+    background: rgb(236, 236, 238);
+  }
+
+  html, body{
+    background: rgb(151, 192, 216);
+    min-height: calc(100vh - 50px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .blacktext {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black;
+  }

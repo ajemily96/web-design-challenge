@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Visualization 2</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container gray">
+    <nav class="row skyblue">
+      <div class="box">
+          <button class="btn btn-secondary skyblue" type="button">
+              <img src="Icons\home-fill.svg" alt="Home">
+              <a class="skyblue" href="index.html">Home</a>
+          </button>
+      </div>
+      <div class="box dropdown">
+          <button class="btn btn-secondary dropdown-toggle skyblue" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Data Visualizations
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="dv1.html">page 1</a>
+            <a class="dropdown-item" href="dv2.html">page 2</a>
+            <a class="dropdown-item" href="dv3.html">page 3</a>
+            <a class="dropdown-item" href="dv4.html">page 4</a>
+          </div> 
+      </div>
+      <div class="box">
+          <button class="btn btn-secondary skyblue" type="button">
+            <a class="skyblue" href="comp.html">Data Comparison</a>
+          </button>
+      </div>
+      <div class="box">
+          <button class="btn btn-secondary skyblue" type="button">
+            <a class="skyblue" href="data.html">Data</a>
+          </button>
+      </div>
+    </nav>
+    <header class="row header">
+      <h1>Data Visualization 2</h1>
+    </header>
+    <main>
+      <section>
+        <article>
+            <img class="floated" src="Resources/assets/images/Fig2.png" alt="data">
+        </article>
+        <article class="post">
+          <h3>Analysis</h3>
+          <p>There doesn't seem to be a connection with city latitude and humidity. Across the board there are pretty broad ranges of humidy, from near zero percent to near 100 percent. 
+            <br>
+            <br> It is interesting to see that there is no obvious relationship between the two. I had anticipated an increase in humidity around the equator since it seems there is far more tropical area around there. But I suppose tropical areas require both humidy and heat to flourish so it makes sense that they don't exist away from the equator.
+            <br>
+            <br> It is more likely that humidity is correlated with another factor such as proximity to the ocean or another large water source. Our dataset does not have this information so we will not be able to analyse this. Though it might be something interesting to look into in the future.
+          </p>
+        </article>
+        <hr>
+        <article class="post">
+          <h3>Continuation</h3>
+          <p>Though we don't see a relationship between latitude and humidity, we could also do a regression or p-test to show that there is no statistical relation between the two. 
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer class="row skyblue">
+      <div class="box">
+      </div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
